@@ -9,6 +9,9 @@ body {
   background-color: var(--primari-white-color);
   color: var(--primary-text-color);
   font-family: Roboto, sans-serif;
+  letter-spacing: 0.02em;
+  font-size: 16px;
+  line-height: 1.5;
 }
 .list {
   list-style-type: none;
@@ -21,6 +24,7 @@ body {
   font-style: ExtraBold;
   font-size: 18px;
   Line-height: 1.2;
+  text-decoration: none;
 }
 .logo-color {
   color: var(--accent-color);
@@ -33,12 +37,14 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
+  text-decoration: none;
 } 
 .auth-nav .link {
   color:var(--primary-text-color);
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
+  text-decoration: none;
 }
 .link:hover,
 .link:focus {
@@ -47,7 +53,7 @@ body {
 
 /* section */
 .hero {
- background: var(--title-text-color); 
+ background-color: var(--title-text-color); 
 }
 .hero-title {
   color: var(--primari-white-color);
@@ -78,20 +84,19 @@ body {
   line-height: 1.1;
   text-align: center;
 }
-.feature-list {
-  color: var(--primary-text-color);
-}
-.work-list {
-  color: var(--primary-text-color);
-}
-.team-list {
+.feature-list .title,   
+.work-list .title,
+.team-list .title {
   color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 20;
+  line-height: 1.2;
 }
 
 /* Footer */
 .footer {
   color:var(--primari-white-color);
-  background: var(--title-text-color);
+  background-color: var(--title-text-color);
 }
 .logo-footer {
   color: var(--primari-white-color);
@@ -99,6 +104,7 @@ body {
     font-style: ExtraBold;
     font-size: 18px;
     Line-height: 1.2;
+    text-decoration: none;
 }
 
 /* Portfolio */
@@ -111,13 +117,6 @@ body {
   color: var(--accent-color);
   background: var(--primari-white-color);
 }
-.title {
-  color: var(--title-text-color);
-  font-weight: 500;
-  font-size: 20;
-  line-height: 1.2;
-}
-
 .button.primary:hover,
 .button.primary:focus {
   color: var(--primary-text-color);
