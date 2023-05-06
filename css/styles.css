@@ -1,0 +1,91 @@
+:root {
+  --primary-text-color: #434455;
+  --title-text-color: #2E2F42;
+  --accent-color: #4d5ae5;
+}
+ 
+body {
+  background-color: #ffffff;
+  color: var(--primary-text-color);
+  font-family: roboto;
+}
+.list {
+  list-style-type: none;
+}
+
+/* Site nav */
+.logo {
+  color: var(--accent-color);
+}
+.logo:hover, logo:focus {
+  color: var(--title-text-color);
+}
+.site-nav {
+  color: var(--title-text-color);
+} 
+.link:hover, .link:focus {
+  color:var(--accent-color);
+}
+.contact-nav {
+  color: var(--title-text-color);
+}
+
+/* section */
+.hero {
+  color: #2E2F42;
+}
+.hero-title {
+  color: var(--title-text-color);
+}
+
+.button {
+  color: #ffffff;
+  background: var(--accent-color);
+}
+.button:hover, .button:focus {
+  color: var(--primary-text-color);
+}
+
+
+.section {
+  color: var(--title-text-color);
+}
+.section-title {
+  color: var(--title-text-color);
+}
+.feature-list .title {
+  color: var(--title-text-color);
+}
+.work-list {
+  color: var(--primary-text-color);
+}
+.team-list {
+  color: var(--title-text-color);
+}
+
+
+/* Footer */
+
+/* Portfolio */
+
+.button-primary {
+  color: #ffffff;
+  background: var(--accent-color);
+}
+.button-secondary {
+  color: var(--accent-color);
+  background: #ffffff ;
+}
+.title {
+  color: var(--title-text-color);
+}
+
+  
+
+
+
+
+
+
+
+
