@@ -151,21 +151,8 @@ body {
   cursor: pointer;
 }
 
-.button.primary {
-  color: var(--primari-white-color);
-  background-color: var(--accent-color);
-}
-.button.secondary {
-  color:var(--accent-color);
-  background-color: var(--background);
-}
-.button.primary:hover,
-.button.primary:focus {
-  color:#FFFFFF;
-  background-color:#404BBF;
-}
-.button.secondary:hover,
-.button.secondary:focus {
+.button-portfolio:hover,
+.button-portfolio:focus {
   color: #FFFFFF;
   background-color: #404BBF;
 }
