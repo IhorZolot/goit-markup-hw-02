@@ -3,6 +3,7 @@
   --title-text-color: #2E2F42;
   --accent-color: #4d5ae5;
   --primari-white-color: #ffffff;
+  --background: #F4F4FD;
 }
  
 body {
@@ -141,7 +142,7 @@ body {
 
 .button-portfolio { 
   color:var(--accent-color) ;
-  background-color: #F4F4FD;
+  background-color: var(--background);
   font-family: Roboto, sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -149,11 +150,26 @@ body {
   letter-spacing: 0.04em;
   cursor: pointer;
 }
-.button-portfolio:hover,
-.button-portfolio:focus {
+
+.button.primary {
+  color: var(--primari-white-color);
+  background-color: var(--accent-color);
+}
+.button.secondary {
+  color:var(--accent-color);
+  background-color: var(--background);
+}
+.button.primary:hover,
+.button.primary:focus {
   color:#FFFFFF;
   background-color:#404BBF;
 }
+.button.secondary:hover,
+.button.secondary:focus {
+  color: #FFFFFF;
+  background-color: #404BBF;
+}
+
 .our-work .link {
   color: var(--primary-text-color);
   font-size: 16px;
