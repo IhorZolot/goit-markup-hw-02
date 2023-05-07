@@ -111,6 +111,9 @@ body {
   color:var(--primary-text-color);
   background-color: #FFFFFF;
 }
+.title-team {
+  background-color: #FFFFFF;
+}
 .team-list .title {
   color: var(--title-text-color);
   background-color: #FFFFFF;
@@ -155,23 +158,10 @@ body {
   letter-spacing: 0.04em;
   cursor: pointer;
 }
-.button-portfolio.primary {
-  color:#FFFFFF;
-  background: #404BBF;
-}
-.button-portfolio.secondary {
-  color: var(--accent-color);
-  background: #F4F4FD;
-}
-.button-portfolio.primary:hover,
-.button-portfolio.primary:focus {
+.button-portfolio:hover,
+.button-portfolio:focus {
   color:#FFFFFF;
   background-color:#404BBF;
-}
-.button-portfolio.secondary:hover,
-.button-portfolio.secondary:focus {
-  color: #FFFFFF;
-  background: #404BBF;
 }
 .our-work .link {
   color: var(--primary-text-color);
