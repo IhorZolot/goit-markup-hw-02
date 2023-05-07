@@ -105,7 +105,7 @@ body {
   letter-spacing: 0.02em;
 }
 .section-team {
-  background-color: #F4F4FD;
+  background-color:var(--primari-white-color) ;
   font-size: 16px;
 }
 .team-list .title {
@@ -117,7 +117,8 @@ body {
   text-decoration: none;
 }
 .text {
-  background-color: #FFFFFF
+  background-color: #FFFFFF;
+  letter-spacing: 0.02em;
 }
 
 /* Footer */
@@ -153,13 +154,13 @@ body {
   background: #404BBF;;
 }
 .button-portfolio.secondary {
-  color: #4d5ae5;
+  color: var(--accent-color);
   background: #F4F4FD;
 }
 .button-portfolio.primary:hover,
 .button-portfolio.primary:focus {
-  color:var(--accent-color);
-  background-color:#F4F4FD;
+  color:#FFFFFF;
+  background-color:#404BBF;
 }
 .button-portfolio.secondary:hover,
 .button-portfolio.secondary:focus {
