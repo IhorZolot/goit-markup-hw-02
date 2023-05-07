@@ -116,6 +116,9 @@ body {
   letter-spacing: 0.02em;
   text-decoration: none;
 }
+.text {
+  background-color: #FFFFFF
+}
 
 /* Footer */
 .footer {
@@ -136,14 +139,14 @@ body {
 /* Portfolio */
 
 .button-portfolio {
-color: var(--accent-color); 
-background: #F4F4FD;
-font-family: Roboto, sans-serif;
-font-weight: 500;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.04em;
-cursor: pointer;
+  color:var(--accent-color) ;
+  background-color: #F4F4FD;
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
 }
 .button-portfolio.primary {
   color:#FFFFFF;
@@ -155,8 +158,8 @@ cursor: pointer;
 }
 .button-portfolio.primary:hover,
 .button-portfolio.primary:focus {
-  color: #FFFFFF;
-  background: #404BBF;
+  color:var(--accent-color);
+  background-color:#F4F4FD;
 }
 .button-portfolio.secondary:hover,
 .button-portfolio.secondary:focus {
