@@ -4,6 +4,7 @@
   --accent-color: #4d5ae5;
   --primari-white-color: #ffffff;
   --background: #F4F4FD;
+  --focus-hover-color: #404bbf;
 }
  
 body {
@@ -33,7 +34,7 @@ body {
   color: var(--title-text-color);
 }
 .logo:hover, .logo:focus {
-  color:#404bbf;
+  color:var(--focus-hover-color);
 }
 .site-nav .link {
   color: var(--title-text-color);
@@ -54,7 +55,7 @@ body {
 }
 .link:hover,
 .link:focus {
-  color: #404bbf;
+  color: var(--focus-hover-color);
 }
 
 /* section */
@@ -81,12 +82,12 @@ body {
   cursor: pointer;
 }
 .button:hover, .button:focus {
-  color: #FFFFFF;
-  background: #404BBF;
+  color: var(--primari-white-color);
+  background: var(--focus-hover-color);
 }
 .section {
   color: var(--primary-text-color);
-  background-color: #FFFFFF;
+  background-color:var(--primari-white-color);
 }
 .section-title {
   color: var(--title-text-color);
@@ -99,36 +100,39 @@ body {
 }
 .feature-list .title {
   color: var(--title-text-color);
-  background-color: #FFFFFF;
+  background-color: var(--primari-white-color);
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
 }
 .section-team {
-  background-color:#F4F4FD;
+  background-color:var(--background);
 }
 .team-list .title {
   color: var(--title-text-color);
-  background-color: #FFFFFF;
+  background-color: var(--primari-white-color);
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
 }
+.foto-team {
+  background-color: var(--primari-white-color);
+}
 .text-team {
   color:var(--primary-text-color);
-  background-color: #FFFFFF;
+  background-color: var(--primari-white-color);
 }
 
 
 /* Footer */
 .footer {
   color:var(--primari-white-color);
-  background-color: #2E2F42;
+  background-color: var(--title-text-color);
 }
 .logo-footer {
-  color:#f4f4fd;
+  color:var(--background);
   font-family: Raleway, sans-serif, ;
   font-weight: 800;
   font-size: 18px;
@@ -150,13 +154,11 @@ body {
   letter-spacing: 0.04em;
   cursor: pointer;
 }
-
 .button-portfolio:hover,
 .button-portfolio:focus {
-  color: #FFFFFF;
-  background-color: #404BBF;
+  color: var(--primari-white-color);
+  background-color: var(--focus-hover-color);
 }
-
 .our-work .link {
   color: var(--primary-text-color);
   font-size: 16px;
