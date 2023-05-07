@@ -107,6 +107,10 @@ body {
 .section-team {
   background-color:#F4F4FD;
 }
+.team-list {
+  color: var(--title-text-color);
+  background-color: #FFFFFF;
+}
 .team-list .title {
   color: var(--title-text-color);
   background-color: #FFFFFF;
@@ -114,14 +118,6 @@ body {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  text-decoration: none;
-}
-.text-team {
-  color: var(--primary-text-color);
-  background-color: var(--primari-white-color);
-  font-size: 16px;
-  line-height: 1.5;
-  text-decoration: none;
 }
 
 /* Footer */
