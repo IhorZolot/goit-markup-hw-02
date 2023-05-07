@@ -119,6 +119,7 @@ body {
 }
 .team-card {
   background-color: var(--primari-white-color);
+  
 }
 .text-team {
   color:var(--primary-text-color);
