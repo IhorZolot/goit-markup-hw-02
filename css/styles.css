@@ -114,6 +114,7 @@ body {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  text-decoration: none;
 }
 
 /* Footer */
@@ -139,7 +140,7 @@ body {
   background: #404BBF;;
 }
 .button.secondary {
-  color: var(--accent-color);
+  color: #4d5ae5;
   background: #F4F4FD;
 }
 .button.primary:hover,
@@ -152,7 +153,14 @@ body {
   color: #FFFFFF;
   background: #404BBF;
 }
-.our-work .title{
+.our-work .link {
+  color: var(--primary-text-color);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  text-decoration: none;
+}
+.our-work .title {
   color: var(--title-text-color);
   font-weight: 500;
   font-size: 20px;
@@ -160,10 +168,6 @@ body {
   letter-spacing: 0.02em;
   text-decoration: none;
 }
-.our-work {
-  color: var(--primary-text-color);
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
+.our-work .title .text {
   text-decoration: none;
 }
