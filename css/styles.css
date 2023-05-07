@@ -134,31 +134,21 @@ body {
 
 /* Portfolio */
 
-.button-portfolio {
-  color:#FFFFFF;
-  background: #404BBF;
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-  cursor: pointer;
-}
-.button-portfolio.primary {
+.button.primary {
   color:#FFFFFF;
   background: #404BBF;;
 }
-.button-portfolio.secondary {
+.button.secondary {
   color: var(--accent-color);
   background: #F4F4FD;
 }
-.button-portfolio.primary:hover,
-.button-portfolio.primary:focus {
+.button.primary:hover,
+.button.primary:focus {
   color: #FFFFFF;
   background: #404BBF;
 }
-.button-portfolio.secondary:hover,
-.button-portfolio.secondary:focus {
+.button.secondary:hover,
+.button.secondary:focus {
   color: #FFFFFF;
   background: #404BBF;
 }
